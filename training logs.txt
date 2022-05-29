@@ -1,0 +1,117 @@
+2022-05-12 15:09:45.494611: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+Bidirectional recurrent layer
+Reading train file:  24% 3701/15197 [00:00<00:00, 37006.24it/s]['Sentence', '35', 'At its peak, Tropical Cyclone Gonu, named for a bag of palm leaves in the language of the Maldives, reached sustained winds of 240 kilometers an hour (149 miles per hour) .', '1']
+Reading train file:  49% 7402/15197 [00:00<00:00, 16024.48it/s]['Sentence', '1', ' From:  Sue Gardner <edited>Amgine wrote:I figure this will be easiest if we remain on a single e-mail thread then.', '1']
+['Sentence', '74', ' Subject:  Re: [Fwd: Re: [Ticket#2008010610008625] Interview with Sue Gardner] Date:  January 7, 2008 7:53:44 PM PST To:  Amgine <edited> Cc:  Erik <edited>', '1']
+['Sentence', '7', 'Syrian Prime Minister  Muhammad Naji al-Otari denied arming Hezbollah and added that Israel is only trying to find an excuse for military action.', '1']
+Reading train file:  73% 11018/15197 [00:00<00:00, 21395.63it/s]['Sentence', '47', 'Siena Catholic College  11, Marsden State High School 5', '1']
+Reading train file: 100% 15197/15197 [00:00<00:00, 23849.61it/s]
+Evaluation every epoch: False
+Training in progress: 100% 1014/1014 [08:55<00:00,  1.89it/s]
+Validation in progress: 100% 254/254 [02:09<00:00,  1.96it/s]
+
+Epoch 1/8: 
+Train Loss: 0.14886347949504852, Acc: 0.7988209128379822, Confusion matrix:
+[[551241 120825]
+ [ 35702  70280]]
+Validation Loss: 0.1400139033794403, Acc: 0.9266601800918579, Confusion matrix:
+[[162882   5390]
+ [  8879  17409]]
+Saving:  model/saved_weights/segmenter_epoch_0000_loss_0.140.h5
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:04<00:00,  2.09it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 2/8: 
+Train Loss: 0.1347009837627411, Acc: 0.8589367270469666, Confusion matrix:
+[[593433  78633]
+ [ 31121  74861]]
+Validation Loss: 0.13487334549427032, Acc: 0.9301860332489014, Confusion matrix:
+[[161988   6284]
+ [  7299  18989]]
+Saving:  model/saved_weights/segmenter_epoch_0001_loss_0.135.h5
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:04<00:00,  2.09it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 3/8: 
+Train Loss: 0.12635432183742523, Acc: 0.9354384541511536, Confusion matrix:
+[[650104  21962]
+ [ 28270  77712]]
+Validation Loss: 0.13186879456043243, Acc: 0.932406485080719, Confusion matrix:
+[[161245   7027]
+ [  6124  20164]]
+Saving:  model/saved_weights/segmenter_epoch_0002_loss_0.132.h5
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:06<00:00,  2.08it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 4/8: 
+Train Loss: 0.117566779255867, Acc: 0.9413532614707947, Confusion matrix:
+[[651674  20392]
+ [ 25238  80744]]
+Validation Loss: 0.13073301315307617, Acc: 0.9352333545684814, Confusion matrix:
+[[163378   4894]
+ [  7707  18581]]
+Saving:  model/saved_weights/segmenter_epoch_0003_loss_0.131.h5
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:06<00:00,  2.08it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 5/8: 
+Train Loss: 0.10678575187921524, Acc: 0.9460547566413879, Confusion matrix:
+[[652025  20041]
+ [ 21931  84051]]
+Validation Loss: 0.12753531336784363, Acc: 0.9379163384437561, Confusion matrix:
+[[163227   5045]
+ [  7034  19254]]
+Saving:  model/saved_weights/segmenter_epoch_0004_loss_0.128.h5
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:07<00:00,  2.08it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 6/8: 
+Train Loss: 0.09343612939119339, Acc: 0.9541364908218384, Confusion matrix:
+[[654649  17417]
+ [ 18267  87715]]
+Validation Loss: 0.13069215416908264, Acc: 0.9401572942733765, Confusion matrix:
+[[162465   5807]
+ [  5836  20452]]
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:06<00:00,  2.09it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 7/8: 
+Train Loss: 0.07763061672449112, Acc: 0.9629033207893372, Confusion matrix:
+[[657421  14645]
+ [ 14218  91764]]
+Validation Loss: 0.13340653479099274, Acc: 0.9398077726364136, Confusion matrix:
+[[162158   6114]
+ [  5597  20691]]
+
+===========================================
+
+Training in progress: 100% 1014/1014 [08:04<00:00,  2.09it/s]
+Validation in progress: 100% 254/254 [01:53<00:00,  2.24it/s]
+
+Epoch 8/8: 
+Train Loss: 0.0608748123049736, Acc: 0.9708295464515686, Confusion matrix:
+[[659940  12126]
+ [ 10570  95412]]
+Validation Loss: 0.14987413585186005, Acc: 0.9423314332962036, Confusion matrix:
+[[162790   5482]
+ [  5738  20550]]
+
+===========================================
